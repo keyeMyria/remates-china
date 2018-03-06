@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Shopify" />
+
+    <style name="ShopifyDraweeView">
+        <item name="failureImage">@drawable/no_product_image</item>
+        <item name="failureImageScaleType">fitCenter</item>
+        <item name="placeholderImage">@drawable/shopify_drawee_place_holder</item>
+        <item name="placeholderImageScaleType">fitXY</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ExpandedTitleTextAppearance" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Shopify.HeaderText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/color_text</item>
+    </style>
+
+    <style name="Shopify.HeaderText.Inverse" parent="Shopify.HeaderText">
+        <item name="android:textColor">@color/color_text</item>
+    </style>
+
+    <style name="Shopify.TitleText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Shopify.TitleText.Inverse" parent="Shopify.TitleText">
+        <item name="android:textColor">@color/color_text</item>
+    </style>
+
+    <style name="Shopify.SubTitleText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/color_text</item>
+    </style>
+
+    <style name="Shopify.SubTitleText.Inverse" parent="Shopify.SubTitleText">
+        <item name="android:textColor">@color/color_text</item>
+    </style>
+
+    <style name="Shopify.BodyText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/color_text</item>
+    </style>
+
+    <style name="Shopify.BodyText.Inverse" parent="Shopify.BodyText">
+        <item name="android:textColor">@color/color_text</item>
+    </style>
+
+    <style name="WalletDetailsHeaderTextAppearance" parent="Shopify.TitleText.Inverse">
+        <item name="android:textColor">@color/text_grey</item>
+    </style>
+
+    <style name="WalletDetailsTextAppearance" parent="Shopify.SubTitleText.Inverse">
+        <item name="android:textColor">@color/text_grey</item>
+    </style>
+
+    <style name="WalletDetailsButton" parent="Shopify.SubTitleText">
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="AppTheme.Login" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="LoginTextField" parent="AppTheme">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/color_text</item>
+        <item name="colorControlNormal">@color/color_text</item>
+        <item name="colorControlActivated">@color/color_text</item>
+        <item name="colorControlHighlight">@color/color_text</item>
+    </style>
+
+    <style name="WhiteProgress">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
