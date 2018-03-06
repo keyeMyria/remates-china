@@ -32,13 +32,34 @@
                 android:paddingTop="10dp"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-                <android.support.v7.widget.RecyclerView
-                    android:id="@+id/list"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@android:color/transparent"
-                    android:clipToPadding="false"
-                    android:listDivider="@android:color/holo_green_dark" />
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_nav"
+                            android:contentDescription="@string/header"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitStart"
+                            android:adjustViewBounds="true" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/list"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:clipToPadding="false"
+                            android:listDivider="@android:color/holo_green_dark" />
+                    </LinearLayout>
+
+                </ScrollView>
 
             </com.shopify.sample.view.main.MainListView>
 

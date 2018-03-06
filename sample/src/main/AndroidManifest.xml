@@ -24,7 +24,7 @@
             android:value="true" />
 
         <activity
-            android:name=".view.main.MainListActivity"
+            android:name=".view.main.LoginActivity"
             android:icon="@drawable/ic_logo"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -35,11 +35,15 @@
         </activity>
 
         <activity
-            android:name=".view.main.LoginActivity"
+            android:name=".view.collections.CollectionListActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".view.collections.CollectionListActivity"
+            android:name=".view.main.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".view.main.MainListActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
